@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+ <widget xmlns = "http://www.w3.org/ns/widgets"
+ xmlns:gap = "http://phonegap.com/ns/1.0"
+ id	= "com.kobina-nsiah.niftypac"
+ versionCode = "11"
+ version= "1.0.0">
+
+ <name>Nifty Pac</name>
+ <description>A starter pac for Ashesi freshmen</description>
+
+ <author
+   href=""
+   email="obed.kobina.nsiah@gmail.com">
+ </author>
+
+ <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
+ <allow-navigation href="*" />
+ <allow-intent href="*" />
+ <access origin = "*"/>
+ <icon src="icon.png"/>
+ <gap:splash src="splash.png"/>
+ </widget>
